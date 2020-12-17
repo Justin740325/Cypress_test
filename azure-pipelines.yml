@@ -16,6 +16,6 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    npm install
+    npm install -g cypress --unsafe-perm --silent
     npm run cy
   displayName: 'npm start and cy'

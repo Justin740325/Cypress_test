@@ -7,6 +7,7 @@
     "start": "npm install -g cypress --unsafe-perm --silent",
     "cy": "cypress run",
     "cy-o": "cypress open",
+    "cy-db": "cypress run --record --key fe907849-d826-4996-b4b6-f2d14a738f09",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

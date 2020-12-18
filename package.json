@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cy -o": "cypress open",
+    "start": "npm install -g cypress --unsafe-perm --silent",
     "cy": "cypress run",
-    "build": "cypress run",
+    "cy-o": "cypress open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

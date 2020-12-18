@@ -17,5 +17,5 @@ steps:
 
 - script: |
     npm run start
-    npm run cy
+    npm run cy-db
   displayName: 'npm start and cy'
